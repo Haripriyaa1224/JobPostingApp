@@ -10,7 +10,7 @@ app.use(express.json())
 
 //MongoDB connection
 mongoose
-.connect("mongodb+srv://mailtohari1224:Hari@1295@jobapp.q6qsxj5.mongodb.net/")
+.connect("mongodb+srv://mailtohari1224:eFrD6iFnCDD8EicO@jobapp.q6qsxj5.mongodb.net/")
 .then(()=> console.log('Connection with database established successfully'))
 .catch((err)=> console.log('Error connecting to database', err));
 
